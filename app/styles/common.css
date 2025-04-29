@@ -74,10 +74,15 @@ footer > div > p {
     footer > div {
         margin: 0 1.5rem; 
     }
+    footer > div > a {
+        margin: 0 1rem;
+        color: #fff;
+    }
 }
 
-@media(max-width: 400px) { 
-    header > * > div {
-        margin: 0 0 0 4rem; 
+@media(max-width: 540px) { 
+    header > * > div > * > li {
+        display: inline-block;
+        margin: 0 0 0 2rem;
     }
 }
