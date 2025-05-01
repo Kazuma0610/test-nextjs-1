@@ -1,7 +1,14 @@
+//app/blog/page.js
+
 import Link from 'next/link'
 import Image from 'next/image'
 import Pagination from "../components/pagination"
 import { getAllBlogs, blogsPerPage } from "../utils/mdQueries"
+
+export const metadata = {
+    title: "ブログ",
+    description: "これはブログページです"
+}
 
 
 const Blog = async() => {

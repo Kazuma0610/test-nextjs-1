@@ -5,6 +5,11 @@ import Image from 'next/image'
 import heroPic from "../public/images/index-hero.jpg"
 import profilePic from "../public/images/profile.jpg"
 
+export const metadata = {
+    title: "Kazuma Ochiai",
+    description: "Kazuma Ochiaiのポートフォリオサイトです"
+}
+
 const Index = () => {
   return (
     <>
